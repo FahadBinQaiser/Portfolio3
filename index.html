@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -77,6 +81,56 @@
         </div>
       </header>
     </nav>
+    <!-- hero section -->
+
+    <main class="h-[86vh] grid grid-cols-2 shadow-lg">
+      <!-- Left Content -->
+      <div
+        class="leftHalf w-full mx-24 flex max-w-[80%] flex-col justify-center items-start h-[80vh]"
+      >
+        <h1
+          class="hello text-lg tracking-[0.2em] font-[Roboto] text-orange-700"
+        >
+          HELLO
+        </h1>
+        <p class="para text-6xl font-['Abhaya_Libre'] font-bold">
+          I'm Fahad Bin Qaiser
+        </p>
+        <p class="para text-6xl font-['Abhaya_Libre'] font-bold">
+          a Web developer
+        </p>
+        <p class="para text-6xl font-['Abhaya_Libre'] font-bold">
+          base in Pakistan
+        </p>
+        <div
+          class="buttons tracking-[0.1em] font-[Roboto] mt-8 flex flex-row space-x-2"
+        >
+          <button
+            class="uppercase hover:bg-orange-700 transition duration-1500 border w-40 h-12 bg-black text-white text-xs"
+          >
+            More about me
+          </button>
+          <button
+            class="uppercase hover:bg-black transition duration-1500 hover:text-white border-2 border-black w-40 h-12 bg-white text-black text-xs"
+          >
+            Get In touch
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div
+        class="rightHalf flex absolute z-[-1] top-0 right-0 w-[50%] h-[100vh] justify-center items-center overflow-hidden"
+      >
+        <img
+          src="assets/images/mainpicbgremoved.png"
+          alt="Fahad"
+          class="h-full w-[60%] max-w-none object-cover"
+        />
+      </div>
+    </main>
+
+    <!-- hero section -->
     <script>
       const menuBtn = document.getElementById("menu-btn");
       const mobileMenu = document.getElementById("mobile-menu");
